@@ -1,4 +1,14 @@
 ![gorsel1](public/Screenshot_1.png)
+![gorsel2](public/Screenshot_2.png)
+![gorsel3](public/Screenshot_3.png)
+![gorsel4](public/Screenshot_4.png)
+![gorsel5](public/Screenshot_5.png)
+![gorsel6](public/Screenshot_6.png)
+![gorsel7](public/Screenshot_7.png)
+![gorsel8](public/Screenshot_8.png)
+![gorsel9](public/Screenshot_9.png)
+![gorsel10](public/Screenshot_10.png)
+![gorsel11](public/Screenshot_11.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
