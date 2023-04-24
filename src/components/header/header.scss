@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    height: 60px;
+  
+    .logo {
+      margin: 0;
+      font-size: 32px;
+      font-weight: bold;
+      color: rgb(69, 155, 240);
+      text-transform: uppercase;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: rgb(238, 212, 212);
+      }
+    }
+  
+    p {
+      padding: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  
+      a {
+        text-decoration: none;
+        color: #333;
+        padding: 10px;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #eee;
+        }
+      }
+    }
+  }
+  

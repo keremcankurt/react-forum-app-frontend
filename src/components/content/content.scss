@@ -1,0 +1,75 @@
+.content-container-link{
+    color: black;
+      text-decoration: none;
+      &:visited{
+          color: inherit;
+      }
+      .content-container {
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          padding: 20px;
+          margin-bottom: 20px;
+          width: 100%;
+      
+          &:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease-in-out;
+          }
+      
+          .title {
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+      
+          .description {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+      
+          .content-infos {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 5px;
+            margin-top: 10px;
+      
+            .author {
+              font-size: 16px;
+              color: #222;
+              text-decoration: none;
+              margin-right: 10px;
+              display: flex;
+              align-items: center;
+              gap: 5px;
+      
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+      
+            .commentsNumber {
+              font-size: 16px;
+              color: #666;
+              margin-right: 10px;
+              
+              display: flex;
+              align-items: center;
+              gap: 5px;
+            }
+      
+            .createdAt {
+              font-size: 16px;
+              color: #666;
+              
+              display: flex;
+              align-items: center;
+              gap: 5px;
+            }
+          }
+        }
+  }

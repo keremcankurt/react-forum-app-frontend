@@ -1,0 +1,20 @@
+.contents-container {
+    max-height: calc(100vh - 100px) !important;
+    overflow-y: auto;
+    
+  }
+
+  @media (max-width: 1024px) {
+    .contents-container{
+      width: 80%;
+      margin: 0;
+      margin: auto;
+      margin-top: 250px
+    }
+  }
+  @media (max-height: 600px) {
+    .contents-container{
+      margin-top: 300px;
+    }
+  }
+  

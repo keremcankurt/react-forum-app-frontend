@@ -1,0 +1,76 @@
+.userPageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  
+    .profile {
+        border: 1px solid rgba(95, 91, 91, 0.597);
+        border-radius: 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+                    0 10px 10px rgba(0,0,0,0.22);
+      padding: 24px;
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 32px;
+  
+      &-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+        text-align: center;
+      }
+  
+      .fullName {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+  
+        input {
+          flex: 1;
+          margin-right: 8px;
+  
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+  
+      input {
+        border: none;
+        background-color: #e6e6e6;
+        border-radius: 8px;
+        color: #333;
+        font-size: 16px;
+        padding: 12px;
+        margin-bottom: 16px;
+        width: 100%;
+        box-sizing: border-box;
+  
+        &:focus {
+          outline: none;
+        }
+  
+        &:disabled {
+          background-color: #d9d9d9;
+          color: #666;
+        }
+      }
+  
+      .contentCount {
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  
+    .contents {
+      border-radius: 8px;
+      padding: 24px;
+      width: calc(100vw - 60px);
+  
+      &-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+    }
+  }
+  
