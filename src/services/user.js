@@ -1,5 +1,5 @@
 import { del, get, put } from "./request";
-const BASE_URL = "http://localhost:4000/api/user";
+const BASE_URL = "https://kckforumapi.herokuapp.com/api/user";
 
 export const getProfile = () => get(`${BASE_URL}/profile`);
 export const editProfile = data => put(`${BASE_URL}/edit`,data);

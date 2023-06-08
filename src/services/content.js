@@ -1,5 +1,5 @@
 import { get, post } from "./request";
-const BASE_URL = "http://localhost:4000/api/content";
+const BASE_URL = "https://kckforumapi.herokuapp.com/api/content";
 
 export const getUserContents = id => get(`${BASE_URL}/getusercontents/${id}`);
 export const getContent = id => get(`${BASE_URL}/getcontent/${id}`);
