@@ -1,6 +1,6 @@
 import { get, post, put } from "./request";
 
-const BASE_URL = "https://kckforumapi.herokuapp.com/api/auth";
+const BASE_URL = "https://localhost:4000/api/auth";
 
 export const login = data => post(`${BASE_URL}/login`, data);
 export const register = data => post(`${BASE_URL}/register`,data);
