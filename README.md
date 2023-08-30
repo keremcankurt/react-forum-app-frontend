@@ -1,6 +1,6 @@
 You can check it from https://kckforum.netlify.app/
 
-![gorsel1](public/Screenshot_1.png)
+![gorsel0](public/Screenshot_1.png)
 ![gorsel2](public/Screenshot_2.png)
 ![gorsel3](public/Screenshot_3.png)
 ![gorsel4](public/Screenshot_4.png)
